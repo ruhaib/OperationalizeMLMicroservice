@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![udacity-microservice](https://circleci.com/gh/ruhaib/OperationalizeMLMicroservice.svg?style=svg)](https://app.circleci.com/pipelines/github/ruhaib/OperationalizeMLMicroservice?branch=main)
 
 ## Project Overview
 
