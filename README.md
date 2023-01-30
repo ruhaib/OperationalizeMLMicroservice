@@ -48,3 +48,20 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+To Run the project:
+Create Docker image and push it to dockerhub registry:
+* ./run_docker.sh
+* `./upload_docker.sh` This requires login and make sure to change dockerpath to your own username/image path
+
+Install minikube and run locally:
+* minikube start
+* `kubectl get nodes` to see if nodes were created successfully
+* `./run_kubernetes.sh` run this again if it fails while taking time to start the pod, so that we can forward the container pod to host pod
+
+Make prediction in a separate window/terminal:
+* ./make_prediction.sh
+
+Finally to delete nodes:
+* minikube delete

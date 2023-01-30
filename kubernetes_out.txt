@@ -1,0 +1,8 @@
+Error from server (AlreadyExists): pods "kb-udacity-microservice" already exists
+NAME                      READY   STATUS    RESTARTS   AGE
+kb-udacity-microservice   1/1     Running   0          4m3s
+sleeping for more than 2 minutes
+awake now
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000

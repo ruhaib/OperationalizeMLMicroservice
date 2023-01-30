@@ -17,7 +17,7 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-echo "sleeping for more then 2 minutes"
+echo "sleeping for more than 2 minutes"
 sleep 125
 echo "awake now"
 kubectl port-forward kb-udacity-microservice 8000:80
